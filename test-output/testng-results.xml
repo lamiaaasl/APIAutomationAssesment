@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-28T02:55:15 EET" name="Default suite" finished-at="2021-01-28T02:55:56 EET" duration-ms="41014">
+    <groups>
+    </groups>
+    <test started-at="2021-01-28T02:55:15 EET" name="Default test" finished-at="2021-01-28T02:55:56 EET" duration-ms="41014">
+      <class name="TestAss.TestPosts">
+        <test-method is-config="true" signature="setupRequestSpecification()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:15 EET" name="setupRequestSpecification" finished-at="2021-01-28T02:55:22 EET" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpecification -->
+        <test-method signature="ChecklogRequestAndResponseDetails()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:22 EET" name="ChecklogRequestAndResponseDetails" finished-at="2021-01-28T02:55:40 EET" duration-ms="18272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChecklogRequestAndResponseDetails -->
+        <test-method signature="checkContentType_PostsAPI()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:40 EET" name="checkContentType_PostsAPI" finished-at="2021-01-28T02:55:44 EET" duration-ms="3550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_PostsAPI -->
+        <test-method signature="checkNumberOfPostsIDsInResponseBody_expect100()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:44 EET" name="checkNumberOfPostsIDsInResponseBody_expect100" finished-at="2021-01-28T02:55:54 EET" duration-ms="10242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfPostsIDsInResponseBody_expect100 -->
+        <test-method signature="checkStatusCode_expectHttp200()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:54 EET" name="checkStatusCode_expectHttp200" finished-at="2021-01-28T02:55:55 EET" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_expectHttp200 -->
+        <test-method signature="extractData()[pri:0, instance:TestAss.TestPosts@1fe20588]" started-at="2021-01-28T02:55:55 EET" name="extractData" finished-at="2021-01-28T02:55:56 EET" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractData -->
+      </class> <!-- TestAss.TestPosts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
